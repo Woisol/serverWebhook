@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.webhook.WebhookMod"
 		],
 		"client": [
 			"com.example.ExampleModClient"
