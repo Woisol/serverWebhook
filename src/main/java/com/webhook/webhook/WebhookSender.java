@@ -71,15 +71,17 @@ public class WebhookSender {
         String event;
         String playerName;
         List<String> currentPlayers;
+        String playTime;
 
         public Payload(String event) {
             this.event = event;
         }
 
-        public Payload(String event, String playerName, List<String> currentPlayers) {
+        public Payload(String event, String playerName, List<String> currentPlayers, String playTime) {
             this.event = event;
             this.playerName = playerName; // Can be null
             this.currentPlayers = currentPlayers; // Can be null
+            this.playTime = playTime; // Can be null
         }
     }
 }
